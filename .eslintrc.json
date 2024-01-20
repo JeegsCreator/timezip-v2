@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "plugin:jsx-a11y/recommended",
+    "plugin:astro/recommended",
+    "./node_modules/ts-standard/eslintrc.json",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["jsx-a11y", "@typescript-eslint"],
+  "parserOptions": {
+    "requireConfigFile": false,
+    "project": "./tsconfig.json"
+  },
+  "overrides": [
+    {
+      "files": ["*.astro"],
+      "parser": "astro-eslint-parser",
+      "parserOptions": {
+        "parser": "@typescript-eslint/parser",
+        "extraFileExtensions": [".astro"]
+      },
+      "rules": {
+        "react/self-closing-comp": "off"
+      }
+    }
+  ]
+}

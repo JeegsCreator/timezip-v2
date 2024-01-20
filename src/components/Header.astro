@@ -1,0 +1,23 @@
+---
+import Github from "./icons/Github.astro";
+import XIcon from "./icons/XIcon.astro";
+import CaretRight from "./icons/CaretRight.astro";
+import { Button } from "@/components/ui/button";
+---
+
+<header class="w-full flex flex-col gap-1 items-center">
+  <div class="text-xl flex gap-5">
+    <a href="https://twitter.com/jeegscreator" aria-label="twitter">
+      <XIcon />
+    </a>
+    <a href="https://github.com/JhonnGutierrez/timezone-v2" aria-label="github">
+      <Github />
+    </a>
+  </div>
+  <h1 class="font-montserrat font-bold text-6xl">TimeZip</h1>
+  <Button
+    variant="outline"
+    className="rounded-full h-7 font-normal text-zinc-700 gap-2 text-sm mt-2 transition-colors"
+    >How it works? <CaretRight /></Button
+  >
+</header>

@@ -1,0 +1,13 @@
+---
+import TimePicker from "./TimePicker";
+import Tool from "./Tool.astro";
+import Clock from "./icons/Clock.astro";
+---
+
+<Tool>
+  <span slot="label">
+    <Clock />
+    Time
+  </span>
+  <TimePicker client:load />
+</Tool>

@@ -1,0 +1,13 @@
+---
+import Tool from "./Tool.astro";
+import Stamp from "./icons/Stamp.astro";
+import FormatToogle from "./FormatToogle";
+---
+
+<Tool>
+  <span slot="label">
+    <Stamp />
+    Format
+  </span>
+  <FormatToogle client:load />
+</Tool>

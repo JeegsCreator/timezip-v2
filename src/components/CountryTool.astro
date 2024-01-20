@@ -1,0 +1,13 @@
+---
+import Tool from "./Tool.astro";
+import Globe from "./icons/Globe.astro";
+import CountrieList from "./CountrieList";
+---
+
+<Tool>
+  <span slot="label">
+    <Globe />
+    Countries
+  </span>
+  <CountrieList client:load />
+</Tool>

@@ -1,0 +1,16 @@
+---
+import CountryTool from "./CountryTool.astro";
+import DateTool from "./DateTool.astro";
+import FormatTool from "./FormatTool.astro";
+import TimeTool from "./TimeTool.astro";
+import { Card, CardContent } from "./ui/card";
+---
+
+<Card>
+  <CardContent className="py-3 flex gap-8">
+    <TimeTool />
+    <DateTool />
+    <CountryTool />
+    <FormatTool />
+  </CardContent>
+</Card>
