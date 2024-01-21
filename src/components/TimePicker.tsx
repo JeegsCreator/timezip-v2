@@ -1,5 +1,5 @@
 import { Button } from "./ui/button";
-import { chechHourValue, chechMinuteValue } from "@/lib/timePickerUtils";
+import { chechHourValue, chechMinuteValue } from "@/lib/timePickerChecks.ts";
 import { format } from "date-fns";
 import { Input } from "./ui/input";
 import { useState, type ChangeEvent, useEffect } from "react";
@@ -51,7 +51,7 @@ const TimePicker = ({ onChange = () => {}, value }: Props) => {
     const { hourValue, valid } = chechHourValue(e.target.value);
 
     if (valid) {
-      const newDate = new Date(new Date("01/01/2024 13:00"));
+      const newDate = new Date(time);
       setHourValue(hourValue);
       const newHour =
         period === "AM" ? Number(hourValue) : Number(hourValue) + 12;
@@ -70,7 +70,7 @@ const TimePicker = ({ onChange = () => {}, value }: Props) => {
     const { minuteValue, valid } = chechMinuteValue(e.target.value);
 
     if (valid) {
-      const newDate = new Date(new Date("01/01/2024 13:00"));
+      const newDate = new Date(time);
       setMinuteValue(minuteValue);
       newDate.setMinutes(Number(minuteValue));
       setTime(newDate);
