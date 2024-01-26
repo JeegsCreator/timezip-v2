@@ -1,14 +1,14 @@
 ---
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
-import ResultCard from "@/components/ResultCard.astro";
+import ResultCard from "@/components/ResultCard.tsx";
 import ToolBar from "@/components/ToolBar.astro";
 ---
 
 <Layout title="TimeZip">
-  <div class="flex flex-col justify-between items-center h-[100svh] py-16">
+  <div class="flex h-[100svh] flex-col items-center justify-between py-16">
     <Header />
-    <ResultCard />
+    <ResultCard client:load />
     <ToolBar />
   </div>
 </Layout>

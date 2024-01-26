@@ -1,4 +1,5 @@
 ---
+import SelectTime from "./SelectTime";
 import TimePicker from "./TimePicker";
 import Tool from "./Tool.astro";
 import Clock from "./icons/Clock.astro";
@@ -9,5 +10,5 @@ import Clock from "./icons/Clock.astro";
     <Clock />
     Time
   </span>
-  <TimePicker client:load />
+  <SelectTime client:load />
 </Tool>

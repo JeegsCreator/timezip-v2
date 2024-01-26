@@ -2,16 +2,16 @@
 import Tool from "./Tool.astro";
 import Calendar from "./icons/Calendar.astro";
 import { DatePicker } from "./ui/date-picker";
-import { Switch } from "./ui/switch";
+import IncludeDateSwitch from "./IncludeDateSwitch";
 ---
 
 <Tool>
-  <div slot="label" class="flex justify-between items-center">
+  <div slot="label" class="flex items-center justify-between">
     <span>
       <Calendar />
       Date
     </span>
-    <Switch client:load />
+    <IncludeDateSwitch client:load />
   </div>
   <DatePicker client:load />
 </Tool>
