@@ -2,6 +2,7 @@ import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import type { Country } from "@/types/timezone";
 import timezones from "@/timezones.json";
+import defaultCountries from "@/data/defaultCountries.json";
 
 type Callback = (countries: Country[]) => Country[];
 
@@ -15,7 +16,7 @@ interface SelectedCountries {
 export const useSelectedCountries = create(
   persist<SelectedCountries>(
     (set, get) => ({
-      selectedCountries: [],
+      selectedCountries: defaultCountries,
 
       selectCountry: (countryId) => {
         const country = timezones.find((c) => c.id === countryId);

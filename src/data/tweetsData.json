@@ -1,0 +1,2392 @@
+[
+  {
+    "name": "Serudda",
+    "username": "@serudda",
+    "ppImage": "pp/seruddapp.jpg",
+    "verified": true,
+    "text": "Hoy - 📆 Jue 28 ➡️ https://twitch.tv/serudda \n Cierre del Año 2023... unas palabras, bendiciones del tío Seru y brindis 🥂",
+    "date": "02 05 2024 16:00",
+    "includeDate": false,
+    "format": "HH[H]",
+    "countries": [
+      {
+        "id": 13,
+        "countryCode": "ES",
+        "countryName": "Spain",
+        "Timezone": [
+          {
+            "id": 65,
+            "initial": "CET",
+            "fullName": "Central European Time",
+            "offset": 1,
+            "summerOffset": 2,
+            "capital": true,
+            "zoneNames": ["Europe/Madrid", "Africa/Ceuta"],
+            "countryId": 13
+          },
+          {
+            "id": 66,
+            "initial": "WET",
+            "fullName": "Western European Time",
+            "offset": 0,
+            "summerOffset": 1,
+            "capital": false,
+            "zoneNames": ["Atlantic/Canary"],
+            "countryId": 13
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "countryCode": "UY",
+        "countryName": "Uruguay",
+        "Timezone": [
+          {
+            "id": 164,
+            "initial": "UY",
+            "fullName": "Uruguay",
+            "offset": -3,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Montevideo"],
+            "countryId": 102
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "countryCode": "AR",
+        "countryName": "Argentina",
+        "Timezone": [
+          {
+            "id": 136,
+            "initial": "AR",
+            "fullName": "Argentina",
+            "offset": -3,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": [
+              "America/Argentina/Buenos_Aires",
+              "America/Argentina/Catamarca",
+              "America/Argentina/Cordoba",
+              "America/Argentina/Jujuy",
+              "America/Argentina/La_Rioja",
+              "America/Argentina/Mendoza",
+              "America/Argentina/Rio_Gallegos",
+              "America/Argentina/Salta",
+              "America/Argentina/San_Juan",
+              "America/Argentina/San_Luis",
+              "America/Argentina/Tucuman",
+              "America/Argentina/Ushuaia"
+            ],
+            "countryId": 74
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "countryCode": "CL",
+        "countryName": "Chile",
+        "Timezone": [
+          {
+            "id": 53,
+            "initial": "CLST",
+            "fullName": "Chile Summer Time",
+            "offset": -3,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Punta_Arenas"],
+            "countryId": 9
+          },
+          {
+            "id": 54,
+            "initial": "CLT",
+            "fullName": "Chile Standard Time",
+            "offset": -3,
+            "summerOffset": -4,
+            "capital": true,
+            "zoneNames": ["America/Santiago"],
+            "countryId": 9
+          },
+          {
+            "id": 55,
+            "initial": "EAST",
+            "fullName": "Easter Island Standard Time",
+            "offset": -6,
+            "summerOffset": -5,
+            "capital": false,
+            "zoneNames": ["Pacific/Easter"],
+            "countryId": 9
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "countryCode": "PY",
+        "countryName": "Paraguay",
+        "Timezone": [
+          {
+            "id": 138,
+            "initial": "PY",
+            "fullName": "Paraguay",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Asuncion"],
+            "countryId": 76
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "countryCode": "BR",
+        "countryName": "Brazil",
+        "Timezone": [
+          {
+            "id": 39,
+            "initial": "BRT",
+            "fullName": "Brasília Time",
+            "offset": -3,
+            "summerOffset": -2,
+            "capital": true,
+            "zoneNames": [
+              "America/Sao_Paulo",
+              "America/Araguaina",
+              "America/Bahia",
+              "America/Belem",
+              "America/Fortaleza",
+              "America/Maceio",
+              "America/Recife",
+              "America/Santarem"
+            ],
+            "countryId": 6
+          },
+          {
+            "id": 40,
+            "initial": "AMT",
+            "fullName": "Amazon Time",
+            "offset": -4,
+            "summerOffset": -3,
+            "capital": false,
+            "zoneNames": [
+              "America/Manaus",
+              "America/Boa_Vista",
+              "America/Campo_Grande",
+              "America/Cuiaba",
+              "America/Porto_Velho"
+            ],
+            "countryId": 6
+          },
+          {
+            "id": 41,
+            "initial": "ACT",
+            "fullName": "Acre Time",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Rio_Branco", "America/Eirunepe"],
+            "countryId": 6
+          },
+          {
+            "id": 42,
+            "initial": "FNT",
+            "fullName": "Fernando de Noronha Time",
+            "offset": -2,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Noronha"],
+            "countryId": 6
+          }
+        ]
+      },
+      {
+        "id": 108,
+        "countryCode": "TT",
+        "countryName": "Trinidad and Tobago",
+        "Timezone": [
+          {
+            "id": 170,
+            "initial": "TT",
+            "fullName": "Trinidad and Tobago",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Port_of_Spain"],
+            "countryId": 108
+          }
+        ]
+      },
+      {
+        "id": 95,
+        "countryCode": "BO",
+        "countryName": "Bolivia",
+        "Timezone": [
+          {
+            "id": 157,
+            "initial": "BO",
+            "fullName": "Bolivia",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/La_Paz"],
+            "countryId": 95
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "countryCode": "VE",
+        "countryName": "Venezuela",
+        "Timezone": [
+          {
+            "id": 142,
+            "initial": "VE",
+            "fullName": "Venezuela",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Caracas"],
+            "countryId": 80
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "countryCode": "DO",
+        "countryName": "Dominican Republic",
+        "Timezone": [
+          {
+            "id": 172,
+            "initial": "DO",
+            "fullName": "Dominican Republic",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Santo_Domingo"],
+            "countryId": 110
+          }
+        ]
+      },
+      {
+        "id": 109,
+        "countryCode": "PR",
+        "countryName": "Puerto Rico",
+        "Timezone": [
+          {
+            "id": 171,
+            "initial": "PR",
+            "fullName": "Puerto Rico",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Puerto_Rico"],
+            "countryId": 109
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "countryCode": "CO",
+        "countryName": "Colombia",
+        "Timezone": [
+          {
+            "id": 141,
+            "initial": "CO",
+            "fullName": "Colombia",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Bogota"],
+            "countryId": 79
+          }
+        ]
+      },
+      {
+        "id": 96,
+        "countryCode": "PE",
+        "countryName": "Peru",
+        "Timezone": [
+          {
+            "id": 158,
+            "initial": "PE",
+            "fullName": "Peru",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Lima"],
+            "countryId": 96
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "countryCode": "EC",
+        "countryName": "Ecuador",
+        "Timezone": [
+          {
+            "id": 69,
+            "initial": "ECT",
+            "fullName": "Ecuador Time",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Guayaquil"],
+            "countryId": 15
+          },
+          {
+            "id": 70,
+            "initial": "GALT",
+            "fullName": "Galapagos Time",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["Pacific/Galapagos"],
+            "countryId": 15
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "countryCode": "CU",
+        "countryName": "Cuba",
+        "Timezone": [
+          {
+            "id": 154,
+            "initial": "CU",
+            "fullName": "Cuba",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Havana"],
+            "countryId": 92
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "countryCode": "PA",
+        "countryName": "Panama",
+        "Timezone": [
+          {
+            "id": 167,
+            "initial": "PA",
+            "fullName": "Panama",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Panama"],
+            "countryId": 105
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "countryCode": "MX",
+        "countryName": "Mexico",
+        "Timezone": [
+          {
+            "id": 43,
+            "initial": "Centro",
+            "fullName": "Zona Centro",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": [
+              "America/Mexico_City",
+              "America/Bahia_Banderas",
+              "America/Chihuahua",
+              "America/Merida",
+              "America/Monterrey"
+            ],
+            "countryId": 7
+          },
+          {
+            "id": 44,
+            "initial": "MST",
+            "fullName": "Mountain Standard Time",
+            "offset": -7,
+            "summerOffset": -6,
+            "capital": false,
+            "zoneNames": ["America/Ciudad_Juarez"],
+            "countryId": 7
+          },
+          {
+            "id": 45,
+            "initial": "Sureste",
+            "fullName": "Zona Sureste",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Cancun"],
+            "countryId": 7
+          },
+          {
+            "id": 46,
+            "initial": "CST",
+            "fullName": "Central Standard Time",
+            "offset": -6,
+            "summerOffset": -5,
+            "capital": false,
+            "zoneNames": ["America/Matamoros", "America/Ojinaga"],
+            "countryId": 7
+          },
+          {
+            "id": 47,
+            "initial": "Pacífico",
+            "fullName": "Zona Pacífico",
+            "offset": -8,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Mazatlan", "America/Hermosillo"],
+            "countryId": 7
+          },
+          {
+            "id": 48,
+            "initial": "PST",
+            "fullName": "Pacific Standard Time",
+            "offset": -8,
+            "summerOffset": -7,
+            "capital": false,
+            "zoneNames": ["America/Tijuana"],
+            "countryId": 7
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "countryCode": "CR",
+        "countryName": "Costa Rica",
+        "Timezone": [
+          {
+            "id": 145,
+            "initial": "CR",
+            "fullName": "Costa Rica",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Costa_Rica"],
+            "countryId": 83
+          }
+        ]
+      },
+      {
+        "id": 98,
+        "countryCode": "NI",
+        "countryName": "Nicaragua",
+        "Timezone": [
+          {
+            "id": 160,
+            "initial": "NI",
+            "fullName": "Nicaragua",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Managua"],
+            "countryId": 98
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "countryCode": "SV",
+        "countryName": "El Salvador",
+        "Timezone": [
+          {
+            "id": 148,
+            "initial": "SV",
+            "fullName": "El Salvador",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/El_Salvador"],
+            "countryId": 86
+          }
+        ]
+      },
+      {
+        "id": 116,
+        "countryCode": "HN",
+        "countryName": "Honduras",
+        "Timezone": [
+          {
+            "id": 178,
+            "initial": "HN",
+            "fullName": "Honduras",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Tegucigalpa"],
+            "countryId": 116
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "countryCode": "GT",
+        "countryName": "Guatemala",
+        "Timezone": [
+          {
+            "id": 152,
+            "initial": "GT",
+            "fullName": "Guatemala",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Guatemala"],
+            "countryId": 90
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "countryCode": "US",
+        "countryName": "United States",
+        "Timezone": [
+          {
+            "id": 21,
+            "initial": "HST",
+            "fullName": "Hawaii Standard Time",
+            "offset": -10,
+            "summerOffset": -9,
+            "capital": false,
+            "zoneNames": ["America/Adak"],
+            "countryId": 3
+          },
+          {
+            "id": 22,
+            "initial": "AKST",
+            "fullName": "Alaska Standard Time",
+            "offset": -9,
+            "summerOffset": -8,
+            "capital": false,
+            "zoneNames": [
+              "America/Anchorage",
+              "America/Juneau",
+              "America/Metlakatla",
+              "America/Nome",
+              "America/Sitka",
+              "America/Yakutat"
+            ],
+            "countryId": 3
+          },
+          {
+            "id": 23,
+            "initial": "MST",
+            "fullName": "Mountain Standard Time",
+            "offset": -7,
+            "summerOffset": -6,
+            "capital": false,
+            "zoneNames": ["America/Denver", "America/Boise"],
+            "countryId": 3
+          },
+          {
+            "id": 24,
+            "initial": "CST",
+            "fullName": "Central Standard Time",
+            "offset": -6,
+            "summerOffset": -5,
+            "capital": false,
+            "zoneNames": [
+              "America/Chicago",
+              "America/Indiana/Knox",
+              "America/Indiana/Tell_City",
+              "America/Menominee",
+              "America/North_Dakota/Beulah",
+              "America/North_Dakota/Center",
+              "America/North_Dakota/New_Salem"
+            ],
+            "countryId": 3
+          },
+          {
+            "id": 25,
+            "initial": "EST",
+            "fullName": "Eastern Standard Time",
+            "offset": -5,
+            "summerOffset": -4,
+            "capital": false,
+            "zoneNames": [
+              "America/New_York",
+              "America/Detroit",
+              "America/Indiana/Indianapolis",
+              "America/Indiana/Marengo",
+              "America/Indiana/Petersburg",
+              "America/Indiana/Vevay",
+              "America/Indiana/Vincennes",
+              "America/Indiana/Winamac",
+              "America/Kentucky/Louisville",
+              "America/Kentucky/Monticello"
+            ],
+            "countryId": 3
+          },
+          {
+            "id": 26,
+            "initial": "PST",
+            "fullName": "Pacific Standard Time",
+            "offset": -8,
+            "summerOffset": -7,
+            "capital": true,
+            "zoneNames": ["America/Los_Angeles", "America/Phoenix"],
+            "countryId": 3
+          },
+          {
+            "id": 27,
+            "initial": "HST",
+            "fullName": "Hawaii Standard Time",
+            "offset": -10,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["Pacific/Honolulu"],
+            "countryId": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Jeegs",
+    "username": "@JeegsCreator",
+    "ppImage": "pp/jeegscreatorpp.jpg",
+    "verified": false,
+    "text": "Tomorrow I will be doing my first stream!!! \n I've been wanting to do it for a long time. I hope to see you there 😉.",
+    "date": "02 25 2024 16:00",
+    "includeDate": false,
+    "format": "hh:mm A",
+    "countries": [
+      {
+        "id": 13,
+        "countryCode": "ES",
+        "countryName": "Spain",
+        "Timezone": [
+          {
+            "id": 65,
+            "initial": "CET",
+            "fullName": "Central European Time",
+            "offset": 1,
+            "summerOffset": 2,
+            "capital": true,
+            "zoneNames": ["Europe/Madrid", "Africa/Ceuta"],
+            "countryId": 13
+          },
+          {
+            "id": 66,
+            "initial": "WET",
+            "fullName": "Western European Time",
+            "offset": 0,
+            "summerOffset": 1,
+            "capital": false,
+            "zoneNames": ["Atlantic/Canary"],
+            "countryId": 13
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "countryCode": "UY",
+        "countryName": "Uruguay",
+        "Timezone": [
+          {
+            "id": 164,
+            "initial": "UY",
+            "fullName": "Uruguay",
+            "offset": -3,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Montevideo"],
+            "countryId": 102
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "countryCode": "AR",
+        "countryName": "Argentina",
+        "Timezone": [
+          {
+            "id": 136,
+            "initial": "AR",
+            "fullName": "Argentina",
+            "offset": -3,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": [
+              "America/Argentina/Buenos_Aires",
+              "America/Argentina/Catamarca",
+              "America/Argentina/Cordoba",
+              "America/Argentina/Jujuy",
+              "America/Argentina/La_Rioja",
+              "America/Argentina/Mendoza",
+              "America/Argentina/Rio_Gallegos",
+              "America/Argentina/Salta",
+              "America/Argentina/San_Juan",
+              "America/Argentina/San_Luis",
+              "America/Argentina/Tucuman",
+              "America/Argentina/Ushuaia"
+            ],
+            "countryId": 74
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "countryCode": "CL",
+        "countryName": "Chile",
+        "Timezone": [
+          {
+            "id": 53,
+            "initial": "CLST",
+            "fullName": "Chile Summer Time",
+            "offset": -3,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Punta_Arenas"],
+            "countryId": 9
+          },
+          {
+            "id": 54,
+            "initial": "CLT",
+            "fullName": "Chile Standard Time",
+            "offset": -3,
+            "summerOffset": -4,
+            "capital": true,
+            "zoneNames": ["America/Santiago"],
+            "countryId": 9
+          },
+          {
+            "id": 55,
+            "initial": "EAST",
+            "fullName": "Easter Island Standard Time",
+            "offset": -6,
+            "summerOffset": -5,
+            "capital": false,
+            "zoneNames": ["Pacific/Easter"],
+            "countryId": 9
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "countryCode": "PY",
+        "countryName": "Paraguay",
+        "Timezone": [
+          {
+            "id": 138,
+            "initial": "PY",
+            "fullName": "Paraguay",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Asuncion"],
+            "countryId": 76
+          }
+        ]
+      },
+      {
+        "id": 95,
+        "countryCode": "BO",
+        "countryName": "Bolivia",
+        "Timezone": [
+          {
+            "id": 157,
+            "initial": "BO",
+            "fullName": "Bolivia",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/La_Paz"],
+            "countryId": 95
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "countryCode": "VE",
+        "countryName": "Venezuela",
+        "Timezone": [
+          {
+            "id": 142,
+            "initial": "VE",
+            "fullName": "Venezuela",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Caracas"],
+            "countryId": 80
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "countryCode": "DO",
+        "countryName": "Dominican Republic",
+        "Timezone": [
+          {
+            "id": 172,
+            "initial": "DO",
+            "fullName": "Dominican Republic",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Santo_Domingo"],
+            "countryId": 110
+          }
+        ]
+      },
+      {
+        "id": 109,
+        "countryCode": "PR",
+        "countryName": "Puerto Rico",
+        "Timezone": [
+          {
+            "id": 171,
+            "initial": "PR",
+            "fullName": "Puerto Rico",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Puerto_Rico"],
+            "countryId": 109
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "countryCode": "CO",
+        "countryName": "Colombia",
+        "Timezone": [
+          {
+            "id": 141,
+            "initial": "CO",
+            "fullName": "Colombia",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Bogota"],
+            "countryId": 79
+          }
+        ]
+      },
+      {
+        "id": 96,
+        "countryCode": "PE",
+        "countryName": "Peru",
+        "Timezone": [
+          {
+            "id": 158,
+            "initial": "PE",
+            "fullName": "Peru",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Lima"],
+            "countryId": 96
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "countryCode": "EC",
+        "countryName": "Ecuador",
+        "Timezone": [
+          {
+            "id": 69,
+            "initial": "ECT",
+            "fullName": "Ecuador Time",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Guayaquil"],
+            "countryId": 15
+          },
+          {
+            "id": 70,
+            "initial": "GALT",
+            "fullName": "Galapagos Time",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["Pacific/Galapagos"],
+            "countryId": 15
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "countryCode": "CU",
+        "countryName": "Cuba",
+        "Timezone": [
+          {
+            "id": 154,
+            "initial": "CU",
+            "fullName": "Cuba",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Havana"],
+            "countryId": 92
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "countryCode": "PA",
+        "countryName": "Panama",
+        "Timezone": [
+          {
+            "id": 167,
+            "initial": "PA",
+            "fullName": "Panama",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Panama"],
+            "countryId": 105
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "countryCode": "MX",
+        "countryName": "Mexico",
+        "Timezone": [
+          {
+            "id": 43,
+            "initial": "Centro",
+            "fullName": "Zona Centro",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": [
+              "America/Mexico_City",
+              "America/Bahia_Banderas",
+              "America/Chihuahua",
+              "America/Merida",
+              "America/Monterrey"
+            ],
+            "countryId": 7
+          },
+          {
+            "id": 44,
+            "initial": "MST",
+            "fullName": "Mountain Standard Time",
+            "offset": -7,
+            "summerOffset": -6,
+            "capital": false,
+            "zoneNames": ["America/Ciudad_Juarez"],
+            "countryId": 7
+          },
+          {
+            "id": 45,
+            "initial": "Sureste",
+            "fullName": "Zona Sureste",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Cancun"],
+            "countryId": 7
+          },
+          {
+            "id": 46,
+            "initial": "CST",
+            "fullName": "Central Standard Time",
+            "offset": -6,
+            "summerOffset": -5,
+            "capital": false,
+            "zoneNames": ["America/Matamoros", "America/Ojinaga"],
+            "countryId": 7
+          },
+          {
+            "id": 47,
+            "initial": "Pacífico",
+            "fullName": "Zona Pacífico",
+            "offset": -8,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Mazatlan", "America/Hermosillo"],
+            "countryId": 7
+          },
+          {
+            "id": 48,
+            "initial": "PST",
+            "fullName": "Pacific Standard Time",
+            "offset": -8,
+            "summerOffset": -7,
+            "capital": false,
+            "zoneNames": ["America/Tijuana"],
+            "countryId": 7
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "countryCode": "CR",
+        "countryName": "Costa Rica",
+        "Timezone": [
+          {
+            "id": 145,
+            "initial": "CR",
+            "fullName": "Costa Rica",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Costa_Rica"],
+            "countryId": 83
+          }
+        ]
+      },
+      {
+        "id": 98,
+        "countryCode": "NI",
+        "countryName": "Nicaragua",
+        "Timezone": [
+          {
+            "id": 160,
+            "initial": "NI",
+            "fullName": "Nicaragua",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Managua"],
+            "countryId": 98
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "countryCode": "SV",
+        "countryName": "El Salvador",
+        "Timezone": [
+          {
+            "id": 148,
+            "initial": "SV",
+            "fullName": "El Salvador",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/El_Salvador"],
+            "countryId": 86
+          }
+        ]
+      },
+      {
+        "id": 116,
+        "countryCode": "HN",
+        "countryName": "Honduras",
+        "Timezone": [
+          {
+            "id": 178,
+            "initial": "HN",
+            "fullName": "Honduras",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Tegucigalpa"],
+            "countryId": 116
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "countryCode": "GT",
+        "countryName": "Guatemala",
+        "Timezone": [
+          {
+            "id": 152,
+            "initial": "GT",
+            "fullName": "Guatemala",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Guatemala"],
+            "countryId": 90
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Serudda",
+    "username": "@serudda",
+    "ppImage": "pp/seruddapp.jpg",
+    "verified": true,
+    "text": "Hoy - 📆 Jue 28 ➡️ https://twitch.tv/serudda \n Cierre del Año 2023... unas palabras, bendiciones del tío Seru y brindis 🥂",
+    "date": "12 02 2024 24:00",
+    "includeDate": false,
+    "format": "HH[H]",
+    "countries": [
+      {
+        "id": 13,
+        "countryCode": "ES",
+        "countryName": "Spain",
+        "Timezone": [
+          {
+            "id": 65,
+            "initial": "CET",
+            "fullName": "Central European Time",
+            "offset": 1,
+            "summerOffset": 2,
+            "capital": true,
+            "zoneNames": ["Europe/Madrid", "Africa/Ceuta"],
+            "countryId": 13
+          },
+          {
+            "id": 66,
+            "initial": "WET",
+            "fullName": "Western European Time",
+            "offset": 0,
+            "summerOffset": 1,
+            "capital": false,
+            "zoneNames": ["Atlantic/Canary"],
+            "countryId": 13
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "countryCode": "UY",
+        "countryName": "Uruguay",
+        "Timezone": [
+          {
+            "id": 164,
+            "initial": "UY",
+            "fullName": "Uruguay",
+            "offset": -3,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Montevideo"],
+            "countryId": 102
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "countryCode": "AR",
+        "countryName": "Argentina",
+        "Timezone": [
+          {
+            "id": 136,
+            "initial": "AR",
+            "fullName": "Argentina",
+            "offset": -3,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": [
+              "America/Argentina/Buenos_Aires",
+              "America/Argentina/Catamarca",
+              "America/Argentina/Cordoba",
+              "America/Argentina/Jujuy",
+              "America/Argentina/La_Rioja",
+              "America/Argentina/Mendoza",
+              "America/Argentina/Rio_Gallegos",
+              "America/Argentina/Salta",
+              "America/Argentina/San_Juan",
+              "America/Argentina/San_Luis",
+              "America/Argentina/Tucuman",
+              "America/Argentina/Ushuaia"
+            ],
+            "countryId": 74
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "countryCode": "CL",
+        "countryName": "Chile",
+        "Timezone": [
+          {
+            "id": 53,
+            "initial": "CLST",
+            "fullName": "Chile Summer Time",
+            "offset": -3,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Punta_Arenas"],
+            "countryId": 9
+          },
+          {
+            "id": 54,
+            "initial": "CLT",
+            "fullName": "Chile Standard Time",
+            "offset": -3,
+            "summerOffset": -4,
+            "capital": true,
+            "zoneNames": ["America/Santiago"],
+            "countryId": 9
+          },
+          {
+            "id": 55,
+            "initial": "EAST",
+            "fullName": "Easter Island Standard Time",
+            "offset": -6,
+            "summerOffset": -5,
+            "capital": false,
+            "zoneNames": ["Pacific/Easter"],
+            "countryId": 9
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "countryCode": "PY",
+        "countryName": "Paraguay",
+        "Timezone": [
+          {
+            "id": 138,
+            "initial": "PY",
+            "fullName": "Paraguay",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Asuncion"],
+            "countryId": 76
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "countryCode": "BR",
+        "countryName": "Brazil",
+        "Timezone": [
+          {
+            "id": 39,
+            "initial": "BRT",
+            "fullName": "Brasília Time",
+            "offset": -3,
+            "summerOffset": -2,
+            "capital": true,
+            "zoneNames": [
+              "America/Sao_Paulo",
+              "America/Araguaina",
+              "America/Bahia",
+              "America/Belem",
+              "America/Fortaleza",
+              "America/Maceio",
+              "America/Recife",
+              "America/Santarem"
+            ],
+            "countryId": 6
+          },
+          {
+            "id": 40,
+            "initial": "AMT",
+            "fullName": "Amazon Time",
+            "offset": -4,
+            "summerOffset": -3,
+            "capital": false,
+            "zoneNames": [
+              "America/Manaus",
+              "America/Boa_Vista",
+              "America/Campo_Grande",
+              "America/Cuiaba",
+              "America/Porto_Velho"
+            ],
+            "countryId": 6
+          },
+          {
+            "id": 41,
+            "initial": "ACT",
+            "fullName": "Acre Time",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Rio_Branco", "America/Eirunepe"],
+            "countryId": 6
+          },
+          {
+            "id": 42,
+            "initial": "FNT",
+            "fullName": "Fernando de Noronha Time",
+            "offset": -2,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Noronha"],
+            "countryId": 6
+          }
+        ]
+      },
+      {
+        "id": 108,
+        "countryCode": "TT",
+        "countryName": "Trinidad and Tobago",
+        "Timezone": [
+          {
+            "id": 170,
+            "initial": "TT",
+            "fullName": "Trinidad and Tobago",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Port_of_Spain"],
+            "countryId": 108
+          }
+        ]
+      },
+      {
+        "id": 95,
+        "countryCode": "BO",
+        "countryName": "Bolivia",
+        "Timezone": [
+          {
+            "id": 157,
+            "initial": "BO",
+            "fullName": "Bolivia",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/La_Paz"],
+            "countryId": 95
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "countryCode": "VE",
+        "countryName": "Venezuela",
+        "Timezone": [
+          {
+            "id": 142,
+            "initial": "VE",
+            "fullName": "Venezuela",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Caracas"],
+            "countryId": 80
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "countryCode": "DO",
+        "countryName": "Dominican Republic",
+        "Timezone": [
+          {
+            "id": 172,
+            "initial": "DO",
+            "fullName": "Dominican Republic",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Santo_Domingo"],
+            "countryId": 110
+          }
+        ]
+      },
+      {
+        "id": 109,
+        "countryCode": "PR",
+        "countryName": "Puerto Rico",
+        "Timezone": [
+          {
+            "id": 171,
+            "initial": "PR",
+            "fullName": "Puerto Rico",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Puerto_Rico"],
+            "countryId": 109
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "countryCode": "CO",
+        "countryName": "Colombia",
+        "Timezone": [
+          {
+            "id": 141,
+            "initial": "CO",
+            "fullName": "Colombia",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Bogota"],
+            "countryId": 79
+          }
+        ]
+      },
+      {
+        "id": 96,
+        "countryCode": "PE",
+        "countryName": "Peru",
+        "Timezone": [
+          {
+            "id": 158,
+            "initial": "PE",
+            "fullName": "Peru",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Lima"],
+            "countryId": 96
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "countryCode": "EC",
+        "countryName": "Ecuador",
+        "Timezone": [
+          {
+            "id": 69,
+            "initial": "ECT",
+            "fullName": "Ecuador Time",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Guayaquil"],
+            "countryId": 15
+          },
+          {
+            "id": 70,
+            "initial": "GALT",
+            "fullName": "Galapagos Time",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["Pacific/Galapagos"],
+            "countryId": 15
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "countryCode": "CU",
+        "countryName": "Cuba",
+        "Timezone": [
+          {
+            "id": 154,
+            "initial": "CU",
+            "fullName": "Cuba",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Havana"],
+            "countryId": 92
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "countryCode": "PA",
+        "countryName": "Panama",
+        "Timezone": [
+          {
+            "id": 167,
+            "initial": "PA",
+            "fullName": "Panama",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Panama"],
+            "countryId": 105
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "countryCode": "MX",
+        "countryName": "Mexico",
+        "Timezone": [
+          {
+            "id": 43,
+            "initial": "Centro",
+            "fullName": "Zona Centro",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": [
+              "America/Mexico_City",
+              "America/Bahia_Banderas",
+              "America/Chihuahua",
+              "America/Merida",
+              "America/Monterrey"
+            ],
+            "countryId": 7
+          },
+          {
+            "id": 44,
+            "initial": "MST",
+            "fullName": "Mountain Standard Time",
+            "offset": -7,
+            "summerOffset": -6,
+            "capital": false,
+            "zoneNames": ["America/Ciudad_Juarez"],
+            "countryId": 7
+          },
+          {
+            "id": 45,
+            "initial": "Sureste",
+            "fullName": "Zona Sureste",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Cancun"],
+            "countryId": 7
+          },
+          {
+            "id": 46,
+            "initial": "CST",
+            "fullName": "Central Standard Time",
+            "offset": -6,
+            "summerOffset": -5,
+            "capital": false,
+            "zoneNames": ["America/Matamoros", "America/Ojinaga"],
+            "countryId": 7
+          },
+          {
+            "id": 47,
+            "initial": "Pacífico",
+            "fullName": "Zona Pacífico",
+            "offset": -8,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Mazatlan", "America/Hermosillo"],
+            "countryId": 7
+          },
+          {
+            "id": 48,
+            "initial": "PST",
+            "fullName": "Pacific Standard Time",
+            "offset": -8,
+            "summerOffset": -7,
+            "capital": false,
+            "zoneNames": ["America/Tijuana"],
+            "countryId": 7
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "countryCode": "CR",
+        "countryName": "Costa Rica",
+        "Timezone": [
+          {
+            "id": 145,
+            "initial": "CR",
+            "fullName": "Costa Rica",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Costa_Rica"],
+            "countryId": 83
+          }
+        ]
+      },
+      {
+        "id": 98,
+        "countryCode": "NI",
+        "countryName": "Nicaragua",
+        "Timezone": [
+          {
+            "id": 160,
+            "initial": "NI",
+            "fullName": "Nicaragua",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Managua"],
+            "countryId": 98
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "countryCode": "SV",
+        "countryName": "El Salvador",
+        "Timezone": [
+          {
+            "id": 148,
+            "initial": "SV",
+            "fullName": "El Salvador",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/El_Salvador"],
+            "countryId": 86
+          }
+        ]
+      },
+      {
+        "id": 116,
+        "countryCode": "HN",
+        "countryName": "Honduras",
+        "Timezone": [
+          {
+            "id": 178,
+            "initial": "HN",
+            "fullName": "Honduras",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Tegucigalpa"],
+            "countryId": 116
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "countryCode": "GT",
+        "countryName": "Guatemala",
+        "Timezone": [
+          {
+            "id": 152,
+            "initial": "GT",
+            "fullName": "Guatemala",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Guatemala"],
+            "countryId": 90
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "countryCode": "US",
+        "countryName": "United States",
+        "Timezone": [
+          {
+            "id": 21,
+            "initial": "HST",
+            "fullName": "Hawaii Standard Time",
+            "offset": -10,
+            "summerOffset": -9,
+            "capital": false,
+            "zoneNames": ["America/Adak"],
+            "countryId": 3
+          },
+          {
+            "id": 22,
+            "initial": "AKST",
+            "fullName": "Alaska Standard Time",
+            "offset": -9,
+            "summerOffset": -8,
+            "capital": false,
+            "zoneNames": [
+              "America/Anchorage",
+              "America/Juneau",
+              "America/Metlakatla",
+              "America/Nome",
+              "America/Sitka",
+              "America/Yakutat"
+            ],
+            "countryId": 3
+          },
+          {
+            "id": 23,
+            "initial": "MST",
+            "fullName": "Mountain Standard Time",
+            "offset": -7,
+            "summerOffset": -6,
+            "capital": false,
+            "zoneNames": ["America/Denver", "America/Boise"],
+            "countryId": 3
+          },
+          {
+            "id": 24,
+            "initial": "CST",
+            "fullName": "Central Standard Time",
+            "offset": -6,
+            "summerOffset": -5,
+            "capital": false,
+            "zoneNames": [
+              "America/Chicago",
+              "America/Indiana/Knox",
+              "America/Indiana/Tell_City",
+              "America/Menominee",
+              "America/North_Dakota/Beulah",
+              "America/North_Dakota/Center",
+              "America/North_Dakota/New_Salem"
+            ],
+            "countryId": 3
+          },
+          {
+            "id": 25,
+            "initial": "EST",
+            "fullName": "Eastern Standard Time",
+            "offset": -5,
+            "summerOffset": -4,
+            "capital": false,
+            "zoneNames": [
+              "America/New_York",
+              "America/Detroit",
+              "America/Indiana/Indianapolis",
+              "America/Indiana/Marengo",
+              "America/Indiana/Petersburg",
+              "America/Indiana/Vevay",
+              "America/Indiana/Vincennes",
+              "America/Indiana/Winamac",
+              "America/Kentucky/Louisville",
+              "America/Kentucky/Monticello"
+            ],
+            "countryId": 3
+          },
+          {
+            "id": 26,
+            "initial": "PST",
+            "fullName": "Pacific Standard Time",
+            "offset": -8,
+            "summerOffset": -7,
+            "capital": true,
+            "zoneNames": ["America/Los_Angeles", "America/Phoenix"],
+            "countryId": 3
+          },
+          {
+            "id": 27,
+            "initial": "HST",
+            "fullName": "Hawaii Standard Time",
+            "offset": -10,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["Pacific/Honolulu"],
+            "countryId": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Serudda",
+    "username": "@serudda",
+    "ppImage": "pp/seruddapp.jpg",
+    "verified": false,
+    "text": "Hoy - 📆 Jue 28 ➡️ https://twitch.tv/serudda \n Cierre del Año 2023... unas palabras, bendiciones del tío Seru y brindis 🥂",
+    "date": "12 02 2024 24:00",
+    "includeDate": false,
+    "format": "HH[H]",
+    "countries": [
+      {
+        "id": 13,
+        "countryCode": "ES",
+        "countryName": "Spain",
+        "Timezone": [
+          {
+            "id": 65,
+            "initial": "CET",
+            "fullName": "Central European Time",
+            "offset": 1,
+            "summerOffset": 2,
+            "capital": true,
+            "zoneNames": ["Europe/Madrid", "Africa/Ceuta"],
+            "countryId": 13
+          },
+          {
+            "id": 66,
+            "initial": "WET",
+            "fullName": "Western European Time",
+            "offset": 0,
+            "summerOffset": 1,
+            "capital": false,
+            "zoneNames": ["Atlantic/Canary"],
+            "countryId": 13
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "countryCode": "UY",
+        "countryName": "Uruguay",
+        "Timezone": [
+          {
+            "id": 164,
+            "initial": "UY",
+            "fullName": "Uruguay",
+            "offset": -3,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Montevideo"],
+            "countryId": 102
+          }
+        ]
+      },
+      {
+        "id": 74,
+        "countryCode": "AR",
+        "countryName": "Argentina",
+        "Timezone": [
+          {
+            "id": 136,
+            "initial": "AR",
+            "fullName": "Argentina",
+            "offset": -3,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": [
+              "America/Argentina/Buenos_Aires",
+              "America/Argentina/Catamarca",
+              "America/Argentina/Cordoba",
+              "America/Argentina/Jujuy",
+              "America/Argentina/La_Rioja",
+              "America/Argentina/Mendoza",
+              "America/Argentina/Rio_Gallegos",
+              "America/Argentina/Salta",
+              "America/Argentina/San_Juan",
+              "America/Argentina/San_Luis",
+              "America/Argentina/Tucuman",
+              "America/Argentina/Ushuaia"
+            ],
+            "countryId": 74
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "countryCode": "CL",
+        "countryName": "Chile",
+        "Timezone": [
+          {
+            "id": 53,
+            "initial": "CLST",
+            "fullName": "Chile Summer Time",
+            "offset": -3,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Punta_Arenas"],
+            "countryId": 9
+          },
+          {
+            "id": 54,
+            "initial": "CLT",
+            "fullName": "Chile Standard Time",
+            "offset": -3,
+            "summerOffset": -4,
+            "capital": true,
+            "zoneNames": ["America/Santiago"],
+            "countryId": 9
+          },
+          {
+            "id": 55,
+            "initial": "EAST",
+            "fullName": "Easter Island Standard Time",
+            "offset": -6,
+            "summerOffset": -5,
+            "capital": false,
+            "zoneNames": ["Pacific/Easter"],
+            "countryId": 9
+          }
+        ]
+      },
+      {
+        "id": 76,
+        "countryCode": "PY",
+        "countryName": "Paraguay",
+        "Timezone": [
+          {
+            "id": 138,
+            "initial": "PY",
+            "fullName": "Paraguay",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Asuncion"],
+            "countryId": 76
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "countryCode": "BR",
+        "countryName": "Brazil",
+        "Timezone": [
+          {
+            "id": 39,
+            "initial": "BRT",
+            "fullName": "Brasília Time",
+            "offset": -3,
+            "summerOffset": -2,
+            "capital": true,
+            "zoneNames": [
+              "America/Sao_Paulo",
+              "America/Araguaina",
+              "America/Bahia",
+              "America/Belem",
+              "America/Fortaleza",
+              "America/Maceio",
+              "America/Recife",
+              "America/Santarem"
+            ],
+            "countryId": 6
+          },
+          {
+            "id": 40,
+            "initial": "AMT",
+            "fullName": "Amazon Time",
+            "offset": -4,
+            "summerOffset": -3,
+            "capital": false,
+            "zoneNames": [
+              "America/Manaus",
+              "America/Boa_Vista",
+              "America/Campo_Grande",
+              "America/Cuiaba",
+              "America/Porto_Velho"
+            ],
+            "countryId": 6
+          },
+          {
+            "id": 41,
+            "initial": "ACT",
+            "fullName": "Acre Time",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Rio_Branco", "America/Eirunepe"],
+            "countryId": 6
+          },
+          {
+            "id": 42,
+            "initial": "FNT",
+            "fullName": "Fernando de Noronha Time",
+            "offset": -2,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Noronha"],
+            "countryId": 6
+          }
+        ]
+      },
+      {
+        "id": 108,
+        "countryCode": "TT",
+        "countryName": "Trinidad and Tobago",
+        "Timezone": [
+          {
+            "id": 170,
+            "initial": "TT",
+            "fullName": "Trinidad and Tobago",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Port_of_Spain"],
+            "countryId": 108
+          }
+        ]
+      },
+      {
+        "id": 95,
+        "countryCode": "BO",
+        "countryName": "Bolivia",
+        "Timezone": [
+          {
+            "id": 157,
+            "initial": "BO",
+            "fullName": "Bolivia",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/La_Paz"],
+            "countryId": 95
+          }
+        ]
+      },
+      {
+        "id": 80,
+        "countryCode": "VE",
+        "countryName": "Venezuela",
+        "Timezone": [
+          {
+            "id": 142,
+            "initial": "VE",
+            "fullName": "Venezuela",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Caracas"],
+            "countryId": 80
+          }
+        ]
+      },
+      {
+        "id": 110,
+        "countryCode": "DO",
+        "countryName": "Dominican Republic",
+        "Timezone": [
+          {
+            "id": 172,
+            "initial": "DO",
+            "fullName": "Dominican Republic",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Santo_Domingo"],
+            "countryId": 110
+          }
+        ]
+      },
+      {
+        "id": 109,
+        "countryCode": "PR",
+        "countryName": "Puerto Rico",
+        "Timezone": [
+          {
+            "id": 171,
+            "initial": "PR",
+            "fullName": "Puerto Rico",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Puerto_Rico"],
+            "countryId": 109
+          }
+        ]
+      },
+      {
+        "id": 79,
+        "countryCode": "CO",
+        "countryName": "Colombia",
+        "Timezone": [
+          {
+            "id": 141,
+            "initial": "CO",
+            "fullName": "Colombia",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Bogota"],
+            "countryId": 79
+          }
+        ]
+      },
+      {
+        "id": 96,
+        "countryCode": "PE",
+        "countryName": "Peru",
+        "Timezone": [
+          {
+            "id": 158,
+            "initial": "PE",
+            "fullName": "Peru",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Lima"],
+            "countryId": 96
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "countryCode": "EC",
+        "countryName": "Ecuador",
+        "Timezone": [
+          {
+            "id": 69,
+            "initial": "ECT",
+            "fullName": "Ecuador Time",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Guayaquil"],
+            "countryId": 15
+          },
+          {
+            "id": 70,
+            "initial": "GALT",
+            "fullName": "Galapagos Time",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["Pacific/Galapagos"],
+            "countryId": 15
+          }
+        ]
+      },
+      {
+        "id": 92,
+        "countryCode": "CU",
+        "countryName": "Cuba",
+        "Timezone": [
+          {
+            "id": 154,
+            "initial": "CU",
+            "fullName": "Cuba",
+            "offset": -4,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Havana"],
+            "countryId": 92
+          }
+        ]
+      },
+      {
+        "id": 105,
+        "countryCode": "PA",
+        "countryName": "Panama",
+        "Timezone": [
+          {
+            "id": 167,
+            "initial": "PA",
+            "fullName": "Panama",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Panama"],
+            "countryId": 105
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "countryCode": "MX",
+        "countryName": "Mexico",
+        "Timezone": [
+          {
+            "id": 43,
+            "initial": "Centro",
+            "fullName": "Zona Centro",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": [
+              "America/Mexico_City",
+              "America/Bahia_Banderas",
+              "America/Chihuahua",
+              "America/Merida",
+              "America/Monterrey"
+            ],
+            "countryId": 7
+          },
+          {
+            "id": 44,
+            "initial": "MST",
+            "fullName": "Mountain Standard Time",
+            "offset": -7,
+            "summerOffset": -6,
+            "capital": false,
+            "zoneNames": ["America/Ciudad_Juarez"],
+            "countryId": 7
+          },
+          {
+            "id": 45,
+            "initial": "Sureste",
+            "fullName": "Zona Sureste",
+            "offset": -5,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Cancun"],
+            "countryId": 7
+          },
+          {
+            "id": 46,
+            "initial": "CST",
+            "fullName": "Central Standard Time",
+            "offset": -6,
+            "summerOffset": -5,
+            "capital": false,
+            "zoneNames": ["America/Matamoros", "America/Ojinaga"],
+            "countryId": 7
+          },
+          {
+            "id": 47,
+            "initial": "Pacífico",
+            "fullName": "Zona Pacífico",
+            "offset": -8,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["America/Mazatlan", "America/Hermosillo"],
+            "countryId": 7
+          },
+          {
+            "id": 48,
+            "initial": "PST",
+            "fullName": "Pacific Standard Time",
+            "offset": -8,
+            "summerOffset": -7,
+            "capital": false,
+            "zoneNames": ["America/Tijuana"],
+            "countryId": 7
+          }
+        ]
+      },
+      {
+        "id": 83,
+        "countryCode": "CR",
+        "countryName": "Costa Rica",
+        "Timezone": [
+          {
+            "id": 145,
+            "initial": "CR",
+            "fullName": "Costa Rica",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Costa_Rica"],
+            "countryId": 83
+          }
+        ]
+      },
+      {
+        "id": 98,
+        "countryCode": "NI",
+        "countryName": "Nicaragua",
+        "Timezone": [
+          {
+            "id": 160,
+            "initial": "NI",
+            "fullName": "Nicaragua",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Managua"],
+            "countryId": 98
+          }
+        ]
+      },
+      {
+        "id": 86,
+        "countryCode": "SV",
+        "countryName": "El Salvador",
+        "Timezone": [
+          {
+            "id": 148,
+            "initial": "SV",
+            "fullName": "El Salvador",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/El_Salvador"],
+            "countryId": 86
+          }
+        ]
+      },
+      {
+        "id": 116,
+        "countryCode": "HN",
+        "countryName": "Honduras",
+        "Timezone": [
+          {
+            "id": 178,
+            "initial": "HN",
+            "fullName": "Honduras",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Tegucigalpa"],
+            "countryId": 116
+          }
+        ]
+      },
+      {
+        "id": 90,
+        "countryCode": "GT",
+        "countryName": "Guatemala",
+        "Timezone": [
+          {
+            "id": 152,
+            "initial": "GT",
+            "fullName": "Guatemala",
+            "offset": -6,
+            "summerOffset": null,
+            "capital": true,
+            "zoneNames": ["America/Guatemala"],
+            "countryId": 90
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "countryCode": "US",
+        "countryName": "United States",
+        "Timezone": [
+          {
+            "id": 21,
+            "initial": "HST",
+            "fullName": "Hawaii Standard Time",
+            "offset": -10,
+            "summerOffset": -9,
+            "capital": false,
+            "zoneNames": ["America/Adak"],
+            "countryId": 3
+          },
+          {
+            "id": 22,
+            "initial": "AKST",
+            "fullName": "Alaska Standard Time",
+            "offset": -9,
+            "summerOffset": -8,
+            "capital": false,
+            "zoneNames": [
+              "America/Anchorage",
+              "America/Juneau",
+              "America/Metlakatla",
+              "America/Nome",
+              "America/Sitka",
+              "America/Yakutat"
+            ],
+            "countryId": 3
+          },
+          {
+            "id": 23,
+            "initial": "MST",
+            "fullName": "Mountain Standard Time",
+            "offset": -7,
+            "summerOffset": -6,
+            "capital": false,
+            "zoneNames": ["America/Denver", "America/Boise"],
+            "countryId": 3
+          },
+          {
+            "id": 24,
+            "initial": "CST",
+            "fullName": "Central Standard Time",
+            "offset": -6,
+            "summerOffset": -5,
+            "capital": false,
+            "zoneNames": [
+              "America/Chicago",
+              "America/Indiana/Knox",
+              "America/Indiana/Tell_City",
+              "America/Menominee",
+              "America/North_Dakota/Beulah",
+              "America/North_Dakota/Center",
+              "America/North_Dakota/New_Salem"
+            ],
+            "countryId": 3
+          },
+          {
+            "id": 25,
+            "initial": "EST",
+            "fullName": "Eastern Standard Time",
+            "offset": -5,
+            "summerOffset": -4,
+            "capital": false,
+            "zoneNames": [
+              "America/New_York",
+              "America/Detroit",
+              "America/Indiana/Indianapolis",
+              "America/Indiana/Marengo",
+              "America/Indiana/Petersburg",
+              "America/Indiana/Vevay",
+              "America/Indiana/Vincennes",
+              "America/Indiana/Winamac",
+              "America/Kentucky/Louisville",
+              "America/Kentucky/Monticello"
+            ],
+            "countryId": 3
+          },
+          {
+            "id": 26,
+            "initial": "PST",
+            "fullName": "Pacific Standard Time",
+            "offset": -8,
+            "summerOffset": -7,
+            "capital": true,
+            "zoneNames": ["America/Los_Angeles", "America/Phoenix"],
+            "countryId": 3
+          },
+          {
+            "id": 27,
+            "initial": "HST",
+            "fullName": "Hawaii Standard Time",
+            "offset": -10,
+            "summerOffset": null,
+            "capital": false,
+            "zoneNames": ["Pacific/Honolulu"],
+            "countryId": 3
+          }
+        ]
+      }
+    ]
+  }
+]

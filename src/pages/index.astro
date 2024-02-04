@@ -3,6 +3,13 @@ import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import ResultCard from "@/components/ResultCard.tsx";
 import ToolBar from "@/components/ToolBar.astro";
+import Globe from "@/components/Globe.astro";
+import ClockBold from "@/components/icons/ClockBold.astro";
+import TweetCard from "@/components/TweetCard.tsx";
+
+import tweetsData from "@/data/tweetsData.json";
+import TweetCarousel from "@/components/Carousel";
+import { Toaster } from "@/components/ui/sonner";
 ---
 
 <Layout title="TimeZip">
@@ -11,4 +18,27 @@ import ToolBar from "@/components/ToolBar.astro";
     <ResultCard client:load />
     <ToolBar />
   </div>
+  <div>
+    <Globe />
+  </div>
+  <article class="pt-20">
+    <div class="flex flex-col items-center">
+      <h2
+        class="flex w-1/2 flex-col items-center text-balance font-montserrat text-4xl font-bold"
+      >
+        <span class="text-center">Quick and Easy time zone converter</span>
+        <span class="flex items-center gap-2"
+          >for social media <ClockBold /></span
+        >
+      </h2>
+      <span class="text-lg"
+        >Here are some examples of tweets you can create with <strong
+          >TimeZip.</strong
+        ></span
+      >
+    </div>
+
+    <TweetCarousel client:visible />
+  </article>
+  <Toaster client:load />
 </Layout>

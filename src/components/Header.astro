@@ -5,19 +5,27 @@ import CaretRight from "./icons/CaretRight.astro";
 import { Button } from "@/components/ui/button";
 ---
 
-<header class="w-full flex flex-col gap-1 items-center">
-  <div class="text-xl flex gap-5">
-    <a href="https://twitter.com/jeegscreator" aria-label="twitter">
+<header class="flex w-full flex-col items-center gap-1">
+  <div class="flex gap-5 text-xl">
+    <a
+      href="https://twitter.com/jeegscreator"
+      aria-label="twitter"
+      target="_blank"
+    >
       <XIcon />
     </a>
-    <a href="https://github.com/JhonnGutierrez/timezone-v2" aria-label="github">
+    <a
+      href="https://github.com/JhonnGutierrez/timezone-v2"
+      aria-label="github"
+      target="_blank"
+    >
       <Github />
     </a>
   </div>
-  <h1 class="font-montserrat font-bold text-6xl">TimeZip</h1>
+  <h1 class="font-montserrat text-6xl font-bold">TimeZip</h1>
   <Button
     variant="outline"
-    className="rounded-full h-7 font-normal text-zinc-700 gap-2 text-sm mt-2 transition-colors"
+    className="mt-2 h-7 gap-2 rounded-full text-sm font-normal text-zinc-700 transition-colors"
     >How it works? <CaretRight /></Button
   >
 </header>

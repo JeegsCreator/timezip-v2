@@ -11,4 +11,7 @@ export default defineConfig({
     }),
     react(),
   ],
+  vite: {
+    assetsInclude: ["**/*.glb"],
+  },
 });
