@@ -1,7 +1,6 @@
 import Plus from "./icons/Plus.tsx";
 import { Button } from "./ui/button.tsx";
 import { Sheet, SheetContent, SheetTrigger } from "./ui/sheet.tsx";
-import { ScrollArea } from "./ui/scroll-area.tsx";
 import CountriesList from "./CountriesList.tsx";
 import SelectedCountriesList from "./SelectedCountriesList.tsx";
 

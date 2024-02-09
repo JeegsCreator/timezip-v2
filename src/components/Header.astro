@@ -1,8 +1,6 @@
 ---
 import Github from "./icons/Github.astro";
 import XIcon from "./icons/XIcon.astro";
-import CaretRight from "./icons/CaretRight.astro";
-import { Button } from "@/components/ui/button";
 ---
 
 <header class="flex w-full flex-col items-center gap-1">
@@ -22,10 +20,13 @@ import { Button } from "@/components/ui/button";
       <Github />
     </a>
   </div>
-  <h1 class="font-montserrat text-6xl font-bold">TimeZip</h1>
-  <Button
+  <div class="flex flex-col items-center">
+    <h1 class="font-montserrat text-5xl font-bold">TimeZip</h1>
+    <p class="text-zinc-500">By Jeegs</p>
+  </div>
+  <!-- <Button
     variant="outline"
     className="mt-2 h-7 gap-2 rounded-full text-sm font-normal text-zinc-700 transition-colors"
     >How it works? <CaretRight /></Button
-  >
+  > -->
 </header>

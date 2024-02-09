@@ -1,12 +1,12 @@
 import { isValid } from "date-fns";
 
 export function chechHourValue(hour: string) {
-  let hourValue = "";
+  let newHourValue = "";
   let valid = false;
 
   if (hour === "") {
     valid = true;
-    return { hourValue, valid };
+    return { newHourValue, valid };
   }
 
   const newHour = Number(hour);
@@ -16,20 +16,20 @@ export function chechHourValue(hour: string) {
   const isInRange = newHour <= 12 && newHour >= 0;
 
   if (isInRange && isValid(newDate)) {
-    hourValue = `${newHour}`;
+    newHourValue = `${newHour}`;
     valid = true;
   }
 
-  return { hourValue, valid };
+  return { newHourValue, valid };
 }
 
 export function chechMinuteValue(minute: string) {
-  let minuteValue = "";
+  let newMinuteValue = "";
   let valid = false;
 
   if (minute === "") {
     valid = true;
-    return { minuteValue, valid };
+    return { newMinuteValue, valid };
   }
 
   const newMinute = Number(minute);
@@ -39,9 +39,9 @@ export function chechMinuteValue(minute: string) {
   const isInRange = newMinute <= 59 && newMinute >= 0;
 
   if (isInRange && isValid(newDate)) {
-    minuteValue = `${newMinute}`;
+    newMinuteValue = `${newMinute}`;
     valid = true;
   }
 
-  return { minuteValue, valid };
+  return { newMinuteValue, valid };
 }

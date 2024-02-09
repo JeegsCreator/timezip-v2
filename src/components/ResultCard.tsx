@@ -52,7 +52,7 @@ const ResultCard = () => {
             </div>
           </ScrollArea>
         ) : (
-          <p>Don't have any country selected</p>
+          <p className="px-12">Don't have any country selected</p>
         )}
       </CardContent>
     </Card>

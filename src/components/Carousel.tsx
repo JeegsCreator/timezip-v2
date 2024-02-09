@@ -46,7 +46,7 @@ const TweetCarousel = () => {
                   date={data.date}
                   format={data.format}
                   includeDate={data.includeDate}
-                  name={`${data.name} ${index}`}
+                  name={data.name}
                   ppImage={data.ppImage}
                   text={data.text}
                   username={data.username}

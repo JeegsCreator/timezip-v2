@@ -12,7 +12,6 @@ import {
 import { useDate } from "@/context/useDate.ts";
 
 const TimePicker = () => {
-  // const [time, setTime] = useState<Date>();
   const { date, setDate, getDate } = useDate();
 
   const InitalizeValue = getDate();
@@ -22,18 +21,19 @@ const TimePicker = () => {
   const [minuteValue, setMinuteValue] = useState(format(InitalizeValue, "mm"));
   const [period, setPeriod] = useState(format(InitalizeValue, "a"));
 
-  useEffect(() => {
-    const newDate = getDate();
+  // useEffect(() => {
+  //   const newDate = getDate();
 
-    setTime(newDate);
-    setHourValue(format(newDate, "hh"));
-    setMinuteValue(format(newDate, "mm"));
-    setPeriod(format(newDate, "a"));
-  }, [date]);
+  //   setTime(newDate);
+  //   setHourValue(format(newDate, "hh"));
+  //   console.log("useEffect");
+  //   setMinuteValue(format(newDate, "mm"));
+  //   setPeriod(format(newDate, "a"));
+  // }, [date]);
+
   const handlePeriodChange = (value: "AM" | "PM") => {
     const state = getDate();
 
-    console.log(typeof state);
     const hour = state.getHours();
     if (value === "AM") {
       const newHour = hour - 12;
@@ -47,31 +47,33 @@ const TimePicker = () => {
   };
 
   const handleHourChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const { hourValue, valid } = chechHourValue(e.target.value);
+    const { newHourValue, valid } = chechHourValue(e.target.value);
+    console.log(e.target.value);
+    setHourValue(e.target.value);
+    // if (valid) {
+    // const newDate = new Date(date);
+    // const newHour =
+    //   period === "AM" ? Number(newHourValue) : Number(newHourValue) + 12;
 
-    if (valid) {
-      const newDate = new Date(date);
-      setHourValue(hourValue);
-      const newHour =
-        period === "AM" ? Number(hourValue) : Number(hourValue) + 12;
-
-      newDate.setHours(
-        hourValue === "12" ? (period === "AM" ? 0 : 12) : newHour,
-      );
-      setDate(newDate);
-    } else {
-      // ? works with string?
-      setHourValue(format(date, "h"));
-    }
+    // newDate.setHours(
+    //   newHourValue === "12" ? (period === "AM" ? 0 : 12) : newHour,
+    // );
+    // setDate(newDate);
+    // console.log("valid");
+    // } else {
+    //   console.log("invalid");
+    //   // ? works with string?
+    //   setHourValue(format(date, "h"));
+    // }
   };
 
   const handleMinuteChange = (e: ChangeEvent<HTMLInputElement>) => {
-    const { minuteValue, valid } = chechMinuteValue(e.target.value);
+    const { newMinuteValue, valid } = chechMinuteValue(e.target.value);
 
     if (valid) {
       const newDate = new Date(date);
-      setMinuteValue(minuteValue);
-      newDate.setMinutes(Number(minuteValue));
+      setMinuteValue(newMinuteValue);
+      newDate.setMinutes(Number(newMinuteValue));
       setDate(newDate);
     } else {
       // ? works with string?
@@ -103,8 +105,8 @@ const TimePicker = () => {
                     id="hour"
                     type="number"
                     className="w-14 px-1 py-6 text-center text-3xl"
-                    onChange={handleHourChange}
-                    onBlur={() => time && setHourValue(format(time, "hh"))}
+                    onChange={(e) => setHourValue(e.target.value)}
+                    // onBlur={() => time && setHourValue(format(time, "hh"))}
                     value={hourValue}
                     required
                   />

@@ -5,7 +5,6 @@ import ResultCard from "@/components/ResultCard.tsx";
 import ToolBar from "@/components/ToolBar.astro";
 import Globe from "@/components/Globe.astro";
 import ClockBold from "@/components/icons/ClockBold.astro";
-import TweetCard from "@/components/TweetCard.tsx";
 
 import tweetsData from "@/data/tweetsData.json";
 import TweetCarousel from "@/components/Carousel";
@@ -13,11 +12,18 @@ import { Toaster } from "@/components/ui/sonner";
 ---
 
 <Layout title="TimeZip">
-  <div class="flex h-[100svh] flex-col items-center justify-between py-16">
+  <Toaster client:load />
+  <div class="absolute -z-50 h-full w-full bg-transparent">
+    <div
+      class="absolute h-full w-full bg-[radial-gradient(#c5c7cb_1px,transparent_1px)] [background-size:16px_16px]"
+    >
+    </div>
+  </div>
+  <main class="flex h-[100svh] flex-col items-center justify-between py-16">
     <Header />
     <ResultCard client:load />
     <ToolBar />
-  </div>
+  </main>
   <div>
     <Globe />
   </div>
@@ -38,7 +44,9 @@ import { Toaster } from "@/components/ui/sonner";
       >
     </div>
 
-    <TweetCarousel client:visible />
+    <TweetCarousel client:idle />
   </article>
-  <Toaster client:load />
+  <footer class="mt-8 border-t border-zinc-400 bg-white px-[200px] py-8">
+    <p class="text-4xl font-bold">Jeegs</p>
+  </footer>
 </Layout>

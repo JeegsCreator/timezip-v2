@@ -3,7 +3,7 @@ import UseEmblaCarousel from "embla-carousel-react";
 import { useCallback, useEffect, useState } from "react";
 import { flushSync } from "react-dom";
 
-const TWEEN_FACTOR = 2;
+const TWEEN_FACTOR = 4;
 
 export const useCarousel = () => {
   const [emblaRef, api] = UseEmblaCarousel({ loop: true });
