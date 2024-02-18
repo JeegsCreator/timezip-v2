@@ -6,7 +6,7 @@ import ToolBar from "@/components/ToolBar.astro";
 import Globe from "@/components/Globe.astro";
 import ClockBold from "@/components/icons/ClockBold.astro";
 
-import tweetsData from "@/data/tweetsData.json";
+import JeegsLogo from "@/components/JeegsLogo";
 import TweetCarousel from "@/components/Carousel";
 import { Toaster } from "@/components/ui/sonner";
 ---
@@ -46,7 +46,10 @@ import { Toaster } from "@/components/ui/sonner";
 
     <TweetCarousel client:idle />
   </article>
-  <footer class="mt-8 border-t border-zinc-400 bg-white px-[200px] py-8">
-    <p class="text-4xl font-bold">Jeegs</p>
-  </footer>
+  <!-- <footer class="mt-8 border-t border-zinc-300 bg-white px-[200px] py-8">
+    <span class="text-6xl"><JeegsLogo /></span>
+    <span class="text-zinc-500">
+      Develop and Designed by Jhonn Gutierrez (Jeegs)
+    </span>
+  </footer> -->
 </Layout>
