@@ -1,9 +1,9 @@
 {
   "extends": "astro/tsconfigs/strict",
   "compilerOptions": {
-    "baseUrl": "/home/jeegs/projects/timezip-v2",
+    "baseUrl": "src",
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": ["./*"],
     },
     "jsx": "react-jsx",
     "jsxImportSource": "react",
