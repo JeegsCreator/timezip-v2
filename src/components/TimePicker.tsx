@@ -21,15 +21,12 @@ const TimePicker = () => {
   const [minuteValue, setMinuteValue] = useState(format(InitalizeValue, "mm"));
   const [period, setPeriod] = useState(format(InitalizeValue, "a"));
 
-  // useEffect(() => {
-  //   const newDate = getDate();
+  useEffect(() => {
+    const newDate = getDate();
 
-  //   setTime(newDate);
-  //   setHourValue(format(newDate, "hh"));
-  //   console.log("useEffect");
-  //   setMinuteValue(format(newDate, "mm"));
-  //   setPeriod(format(newDate, "a"));
-  // }, [date]);
+    setTime(newDate);
+    setPeriod(format(newDate, "a"));
+  }, [date]);
 
   const handlePeriodChange = (value: "AM" | "PM") => {
     const state = getDate();
@@ -50,21 +47,21 @@ const TimePicker = () => {
     const { newHourValue, valid } = chechHourValue(e.target.value);
     console.log(e.target.value);
     setHourValue(e.target.value);
-    // if (valid) {
-    // const newDate = new Date(date);
-    // const newHour =
-    //   period === "AM" ? Number(newHourValue) : Number(newHourValue) + 12;
+    if (valid) {
+      const newDate = new Date(date);
+      const newHour =
+        period === "AM" ? Number(newHourValue) : Number(newHourValue) + 12;
 
-    // newDate.setHours(
-    //   newHourValue === "12" ? (period === "AM" ? 0 : 12) : newHour,
-    // );
-    // setDate(newDate);
-    // console.log("valid");
-    // } else {
-    //   console.log("invalid");
-    //   // ? works with string?
-    //   setHourValue(format(date, "h"));
-    // }
+      newDate.setHours(
+        newHourValue === "12" ? (period === "AM" ? 0 : 12) : newHour,
+      );
+      setDate(newDate);
+      console.log("valid");
+    } else {
+      console.log("invalid");
+      // ? works with string?
+      setHourValue(format(date, "h"));
+    }
   };
 
   const handleMinuteChange = (e: ChangeEvent<HTMLInputElement>) => {
@@ -105,8 +102,8 @@ const TimePicker = () => {
                     id="hour"
                     type="number"
                     className="w-14 px-1 py-6 text-center text-3xl"
-                    onChange={(e) => setHourValue(e.target.value)}
-                    // onBlur={() => time && setHourValue(format(time, "hh"))}
+                    onChange={handleHourChange}
+                    onBlur={() => time && setHourValue(format(time, "hh"))}
                     value={hourValue}
                     required
                   />
@@ -142,7 +139,7 @@ const TimePicker = () => {
         </PopoverContent>
       </Popover>
     ),
-    [time],
+    [time, hourValue, minuteValue],
   );
 };
 
